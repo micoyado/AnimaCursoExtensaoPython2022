@@ -1,22 +1,15 @@
-# para comentar em linha
+#comando input(): quero permitir que o usuário digite algo
+nome = input("Usuário, digite o seu nome: ")
 
-# print() = comando de saída
-print("Hello, World!\n")
+#pede a idade para o usuário
+idade = int(input("\nUsuário, digite a sua idade: "))
 
-# quando quiser guardar uma string (frase)
-nome = "Milena Porto"
+#comando de saída (exibir na tela nome do usuário)
+print(f"\nOi, seu nome é {nome}")
 
-# quando quiser guardar um número inteiro
-idade = 18
+#comando de saída (exibir na tela idade do usuário)
+print(f"\n{nome}, sua idade é {idade}")
 
-# exibir o que está dentro da variável nome
-print("Meu nome é " + str(nome) + "\n")
-
-# quando quiser exibir a frae "minha idade é " completando com o conteúdo da variável "idade"
-print("Eu tenho " + str(idade) + " anos\n")
-
-# agora os dois juntos!
-print("Meu nome é " + nome + " e tenho " + format(idade) + " anos\n")
-
-#usando o format() e {}
-print ("Meu nome é {} e tenho {} anos" .format(nome, idade))
+#e se eu quisesse mostrar o dobro da idade informada?
+dobro = idade * 2
+print(f"\nO dobro da sua idade é {dobro}")
