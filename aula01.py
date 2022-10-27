@@ -1,4 +1,7 @@
 # para comentar em linha
+#open
+#open
+#open
 
 # print() = comando de saída
 print("Hello, World!\n")
