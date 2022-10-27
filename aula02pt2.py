@@ -2,8 +2,11 @@
 nome = input("• Usuário, informe o seu nome: ")
 nota = float(input(f"\n• {nome}, digite sua nota: "))
 
-if nota == 10:
+if (nota == 10):
   print(f"\n{nome}, você é o bichão mesmo! Parabéns e continue estudando :D")
 
+elif (nota >= 6 and nota < 10):
+  print(f"\n{nome}, bom trabalho! Mas sei que você consegue melhorar :)")
+
 else:
-  print(f"\n{nome}, vamos melhorar essa nota aí, né?")
+  print(f"\n{nome}, essa nota não está legal :/")
