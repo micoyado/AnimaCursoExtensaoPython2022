@@ -5,7 +5,4 @@ import sqlite3
 conexao = sqlite3.connect("dc_universe.db")
 
 #3o passo = criar um objeto do tipo cursor
-cursor = conexao.cursor()
-
-#4o passo: comando SQL do banco
-sql = "SELECT pessoa_id, nome_civil, tipo"
+cursor = conexao.cursor
